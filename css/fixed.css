@@ -1,0 +1,76 @@
+
+/* Header */
+.nav-link {
+    color: black !important;
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'open sans';
+}
+.nav {
+    height: 100px;
+}
+.logotop {
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+.dot {
+    height: 7px;
+    margin-top: 40px;
+}
+.dot1 {
+    height: 7px;
+    margin-top: 40px;
+    margin-right: 50px;
+}
+.dot2 {
+    height: 7px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.icon {
+    width: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+ /*Footer*/
+footer {
+    background-color: #CCAD95;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    border: 1px solid black;
+}
+.footerlogo {
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn {
+    background-color: #AA7160 !important;
+    border: none !important;
+    margin-top: 12px;
+    margin-bottom: 25px;
+}
+.btn:hover {
+    border: 1px solid black !important;
+    box-shadow: 5px 5px #a5a5a5;
+}
+.footerlinks {
+    display: flex;
+    justify-content: center;
+}
+.footerlinks p {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-family: 'open sans';
+}
+.footerlinks p:hover {
+    font-weight: bold;
+    text-decoration: underline;
+}

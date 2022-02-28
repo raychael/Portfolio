@@ -1,0 +1,172 @@
+/* Header */
+
+li:nth-child(7) {
+    font-weight: bold;
+    text-decoration: underline;
+ }
+ 
+/*Overview*/
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: #E7DCD5;
+    width: 100%;
+    height: 80vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.intro {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.display {
+    width: 400px;
+    margin-top: 20px;
+}
+.title h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+}
+.title {
+    margin-top: 0px;
+}
+.text p {
+    font-family: 'open sans';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.text {
+    margin-left: 400px;
+    margin-right: 50px;
+}
+
+/*Project Overview*/
+.myworkheader {
+    background-color: #CCAD95;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+}
+.first {
+    margin-top: 100px;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px !important;
+    font-weight: normal !important;
+    text-align: center;
+    color: black;
+    margin-top: 10px !important;
+}
+.work img {
+    height: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.work {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: -15px;
+}
+.banner h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.col-sm {
+    font-family: 'open sans';
+    margin-bottom: 20px;
+}
+.center {
+    text-align: center;
+    font-family: 'open sans';
+}
+p .bold {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'open sans';
+}
+.col-sm p:nth-child(2) {
+    font-size: 16px;
+    font-family: 'open sans';
+}
+.col-sm img {
+    height: 200px;
+}
+.overview p {
+    font-family: 'open sans';
+}
+.overview {
+    margin-top: 30px;
+}
+p strong {
+    font-size: 20px;
+}
+.col-sm .width {
+    width: 100%;
+    height: 100%;
+}
+/*User Research*/
+.banner {
+    background-color: #CCAD95;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.banner h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+.btn {
+    background-color: #AA7160 !important;
+    border: none !important;
+    margin-top: 0px;
+    padding: 2% !important;
+}
+.btn:hover {
+    border: 1px solid black !important;
+    box-shadow: 5px 5px #c5c5c5;
+}
+.col-sm p {
+    text-align: left;
+}
+/*Side Nav*/
+
+#sidenav {
+    background-image: url(../images/Lines.png);
+    background-size: contain;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    background-position: top left;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-right: 1100px;
+}
+#sidenav a {
+    display: block;
+    margin-bottom: 54px;
+    color: black;
+}
+#sidenav a:last-child {
+    margin-bottom: 0;
+}
+.nav1 {
+    margin-top: -8px;
+}
