@@ -10,7 +10,7 @@ li:nth-child(7) {
 /* My work */
 
 /*Title*/
-.myworkheader {
+.myprojectsheader {
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -34,8 +34,7 @@ li:nth-child(7) {
 }
 .display {
     width: 400px;
-    margin-bottom: 20px;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 h1 {
     font-size: 25px !important;
