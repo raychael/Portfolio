@@ -46,8 +46,8 @@ h3 {
     margin-top: 15px;
     margin-bottom: -15px;
 }
-h1 {
-    font-size: 50px;
+h6 {
+    font-size: 50px !important;
     font-weight: normal;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin-top: 80px !important;
