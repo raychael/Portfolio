@@ -164,16 +164,33 @@ p strong {
 .nav1 {
     margin-top: -8px;
 }
-
-@media all and (max-width: 550px) {
+#bottomnavbar {
+    display: none;
+}
+@media all and (max-width: 1400px) {
+    .text {
+        margin-left: 300px;
+        margin-right: 10px;
+    }
     #sidenav {
         display: none;
     }
+    .smallnavbar {
+        display: unset !important;
+
+    }
+    #bottomnavbar {
+        display: unset;
+    }
+}
+@media all and (max-width: 1000px) {
+
     .title h1 {
         font-size: 30px;
     }
     .text {
-        margin-left: 10px;
+        margin-left: 200px;
+        margin-right: 200px;
     }
     .text p {
         font-size: 16px !important;
@@ -198,7 +215,10 @@ p strong {
   .rowlast {
       flex-wrap: nowrap !important;
   }
-  .smallnavbar {
-      display: unset !important;
-  }
+}
+@media all and (max-width: 650px) {
+    .text {
+        margin-left: 10px;
+        margin-right: 100px;
+    }
 }
