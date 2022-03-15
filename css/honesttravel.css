@@ -180,9 +180,6 @@ p strong {
     #bottomnavbar {
         display: unset;
     }
-    .hero {
-        position: relative;
-    }
 }
 @media all and (max-width: 1000px) {
 
@@ -214,15 +211,6 @@ p strong {
         font-size: 20px !important;
         margin-top: 40px !important;
     }
-  .rowlast {
-      flex-wrap: nowrap !important;
-  }
-  .myworkheader {
-      display: none;
-  }
-  .mobilebanner {
-      display: unset !important;
-  }
 }
 @media all and (max-width: 650px) {
     .text {
