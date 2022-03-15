@@ -48,7 +48,3 @@ li:nth-child(1) {
 .col-md-5:hover {
     background-color: transparent !important;
 }
-/*Mobile*/
-.mobilenav {
-    display: none;
-}

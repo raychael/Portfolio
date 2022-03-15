@@ -47,3 +47,8 @@ a:visited {
     text-decoration: none !important;
     color: black !important;
 }
+@media all and (max-width: 550px) {
+    .resume img {
+        width: 90%;
+    }
+}
