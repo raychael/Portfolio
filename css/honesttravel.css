@@ -38,7 +38,6 @@
     margin-left: 400px;
     margin-right: 50px;
 }
-
 /*Project Overview*/
 .myworkheader {
     background-color: #CCAD95;
@@ -181,6 +180,9 @@ p strong {
     #bottomnavbar {
         display: unset;
     }
+    .hero {
+        position: relative;
+    }
 }
 @media all and (max-width: 1000px) {
 
@@ -203,7 +205,7 @@ p strong {
         margin-right: auto;
         margin-left: auto;
     }
-    h7 {
+    h3 {
         font-size: 20px !important;
         margin-top: 20px !important;
         font-weight: none !important;
@@ -215,13 +217,16 @@ p strong {
   .rowlast {
       flex-wrap: nowrap !important;
   }
+  .myworkheader {
+      display: none;
+  }
+  .mobilebanner {
+      display: unset !important;
+  }
 }
 @media all and (max-width: 650px) {
     .text {
         margin-left: 10px;
         margin-right: 10px;
-    }
-    .rowintro {
-        margin-bottom: 70px;
     }
 }
