@@ -177,7 +177,6 @@ p strong {
     }
     .smallnavbar {
         display: unset !important;
-
     }
     #bottomnavbar {
         display: unset;
@@ -219,6 +218,7 @@ p strong {
 @media all and (max-width: 650px) {
     .text {
         margin-left: 10px;
-        margin-right: 100px;
+        margin-right: 10px;
     }
+
 }
