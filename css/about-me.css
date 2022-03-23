@@ -104,9 +104,12 @@ h4 {
     margin-bottom: 0px;
 }
 @media all and (max-width: 550px) {
+    .hero {
+        height: 80vh;
+    }
     .photome {
         height: 250px;
-        margin-top: -30px !important;
+        margin-top: -100px !important;
     }
     .col-md h6 {
     margin-top: 20px !important;
