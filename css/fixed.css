@@ -82,8 +82,8 @@ footer {
     }
     .photo {
         width: 300px;
-        margin-top: -80px !important;
-        margin-left: 40px;
+        margin-top: -120px !important;
+        margin-left: 35px;
     }
 }
 @media all and (max-width: 1200px) {

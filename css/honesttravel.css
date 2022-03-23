@@ -40,7 +40,7 @@
 }
 /*Project Overview*/
 .myworkheader {
-    background-color: #CCAD95;
+    background-color: #E7DCD5;
     height: 100px;
     width: 100%;
     position: absolute;
@@ -187,6 +187,7 @@ p strong {
     }
     .title h1 {
         font-size: 30px;
+        margin-top: -50px !important;
     }
     .text {
         margin-left: 200px;
@@ -206,7 +207,7 @@ p strong {
     }
     h3 {
         font-size: 20px !important;
-        margin-top: 10px !important;
+        margin-top: 0px !important;
         font-weight: none !important;
     }
     h2 {
