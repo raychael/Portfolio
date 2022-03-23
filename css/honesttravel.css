@@ -182,7 +182,9 @@ p strong {
     }
 }
 @media all and (max-width: 1000px) {
-
+    .hero {
+        height: 80vh;
+    }
     .title h1 {
         font-size: 30px;
     }
@@ -198,13 +200,13 @@ p strong {
         grid-template-columns: 1fr;
     }
     .display1 {
-        width: 400px !important;
+        width: 300px !important;
         margin-right: auto;
         margin-left: auto;
     }
     h3 {
         font-size: 20px !important;
-        margin-top: 20px !important;
+        margin-top: 10px !important;
         font-weight: none !important;
     }
     h2 {

@@ -63,3 +63,27 @@ li:nth-child(9) {
     border: 1px solid black !important;
     box-shadow: 5px 5px #c5c5c5;
 }
+
+@media all and (max-width: 1200px) {
+    .work img {
+        margin-top: 55px !important;
+        height: 25px;
+    }
+    .card-title {
+        font-size: 20px !important;
+        margin-top: 10px;
+    }
+    .card-text {
+        font-size: 16px !important;
+    }
+    .col-md {
+        margin-top: 20px;
+    }
+    .container {
+        margin-bottom: 0px;
+        margin-top: 10px;
+    }
+    .myworkheader {
+        margin-top: 0px !important;
+    }
+}

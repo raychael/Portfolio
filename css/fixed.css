@@ -78,11 +78,18 @@ footer {
 /*Mobile*/
 
 @media all and (max-width: 1200px) {
+    .photo1 {
+        display: none;
+    }
     .photo {
         width: 400px;
+        margin-top: -100px !important;
     }
     p {
         font-size: 16px !important; 
+    }
+    .intro h6 {
+        margin-top: 10px !important;
     }
     .col-md-5 h1 {
         font-size: 20px !important;
@@ -105,5 +112,11 @@ footer {
     }
     .col-md h6 {
         font-size: 35px !important;
+    }
+    .work h3 {
+        font-size: 30px !important;
+    }
+    .myworkheader {
+        height: 80px !important;
     }
 }
