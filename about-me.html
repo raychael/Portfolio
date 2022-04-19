@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="css/fixed.css">
         <link rel="stylesheet" href="css/about-me.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
               <!-- makes the webpages more responsive on mobile -->
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- Hotjar Tracking Code for https://raychael.github.io/UX_UI_HW19/ -->
@@ -24,135 +27,100 @@
 
       <body>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" stylr="background-color: #CCAD95;">
-          <a class="navbar-brand" href="index.html">
-            <img class="logotop" src="images/RACHELBRADLEY.png">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="about-me.html">About Me</a>
-              <a class="nav-item nav-link" href="my-work.html">Projects</a>
-              <a class="nav-item nav-link" href="resume.html">Resume</a>
-              <a class="nav-item nav-link" href="contact-me.html">Contact Me</a>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #EDE8D8">
+          <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="my-projects.html">MY PROJECTS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="my-skills.html">MY SKILLS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="resume.html">RESUME</a>
+                  </li>
+                  <a href="index.html">
+                    <img class="logotop" src="images/Bradley.png">
+                  </a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact-me.html">CONTACT ME</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="about-me.html">ABOUT ME</a>
+                    </li>
+                </ul>
+              </div>
             </div>
-          </div>
         </nav>
   
-        <section class="hero">
+        <div class="projects">
+          <h5>About me</h5>
+          <hr>
+        </div>
+
           <div class="container intro">
             <div class="row">
-              <div class="col-md">
-                <img class="photome" src="images/photome.png">
+              <div class="col-5">
+                <img class="photome" src="images/GradPic.png">
               </div>
-              <div class="col-md">
-                <h6>Some Stuff About Me</h6>
-                <P>Hello, my name is <strong>Rachel Bradley</strong> and I am a <strong>UX/UI designer.</strong> I have a Bachelor’s degree in Business Economics and a UX/UI design certificate, both from the University of Arizona.</P>
-                <P>I love the challenge of creating a site that makes for an <strong>easy and effective</strong> user experience while representing the site in a way the company is proud of.</P>
-              </div>
-            </div>
-          </div>
-      </section>
-
-        <div class="myworkheader">
-          <div class="work">
-            <h3>MY SKILLS</h3>
-            <img class="arrow" src="images/black arrow.png" alt="arrow">
-          </div>
-        </div>
-  
-          <div class="container first" id="myskillscards">
-            <div class="row">
-              <div class="col-md-6" id="card1">
-                <div class="card">
-                  <img src="images/user research.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">USER RESEARCH</h5>
-                    <p class="card-text"><strong>My skills</strong> include conducting user and stakeholder interviews, creating proto-personas, empathy maps, affinity diagrams, competitor analysis’, and heuristic evaluations.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="card">
-                  <img src="images/definition and ideation.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">DEFINITION AND IDEATION</h5>
-                    <p class="card-text"><strong>My skills</strong> include creating problem statements, UX hypotheses, value proposition canvases, feature prioritization matrix, card sorting, sitemapping, user flow diagrams, user journey maps, conducting the I like, I wish, what if method, user scenarios, and storyboards.</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="container first">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="card">
-                  <img src="images/wireframing and prototyping.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">WIREFRAMING AND PROTOTYPING</h5>
-                    <p class="card-text"><strong>My skills</strong> include paper, low-fidelity, and high-fidelity prototyping and low-fidelity and high-fidelity wire framing.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6 lastcard">
-                <div class="card">
-                  <img src="images/usability testing.png" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">USABILITY TESTING</h5>
-                    <p class="card-text"><strong>My skills</strong> include conducting usability testing and iterating based on results.</p>
-                  </div>
-                </div>
+              <div class="col-7">
+                <P>Hi! I’m Rachel and this is my website. I am a UX designer who is eager to land a design job, connect with other UX/UI professionals, expand my skill set, receive feedback, and encourage others in their design journeys.</P>
+                <P>I love the stages of UX/UI and seeing an idea come to life. From user research to high fidelity prototypes. Though I will say my favorite part has to be seeing the high fidelity prototypes come to life.</P>
+                <p>In my dream world, everyone website would be easy to navigate and we would never sit confused on our phones wondering what to do next. I want to contribute to making that happen, one wireframe at a time.</p>
               </div>
             </div>
           </div>
 
-  <section class="toolsbar">
-    <div class="tools">
-      <h4>TOOLS I USE</h4>
-      <div class="toollist">
-        <p>Adobe XD</p>
-        <p>Figma</p>
-        <p>InVision</p>
-        <P>Miro</P>
-        <P>Excel</P>
-        <p>Visual Studio Code</p>
-        <p>Github</p>
-        <p>Google Drive</p>
-        <p>Good Slides</p>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <li>
-      <a href="index.html"><img class="footerlogo" src="images/RACHELBRADLEY.png"></a>
-    </li>
-    <a href="https://www.linkedin.com/in/rachel-bradley-09a151140/" target="_blank">
-      <img class="footericon" src="images/black linkedin.png">
-    </a>
-    <div class="footerlinks">
-      <a href="about-me.html">
-        <p>About Me</p>
-      </a>
-      <a href="resume.html">
-        <p>Resume</p>
-      </a>
-      <a href="my-work.html">
-        <p>Projects</p>
-      </a>
-      <a href="contact-me.html">
-        <p>Contact Me</p>
-      </a>
-    </div>
-    <a href="contact-me.html">
-      <div class="text-center">
-        <button type="button" class="btn btn-primary">Contact Me</button>
-      </div>
-    </a>
-</footer>
-
+          <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mb-3">
+                        <h1 class="f-heading">About My Site</h1>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h1 class="f-heading">Socials</h1>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h1 class="f-heading">Contact Info</h1>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <h1 class="f-heading">Site Pages</h1>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p class="f-content">This is a portfolio website to showcase my work, skills, and connect with other other UX designers.</p>
+                    </div>
+                    <div class="col-md-3">
+                      <a href="https://www.linkedin.com/in/rachel-bradley-09a151140/" target="_blank"> <img class="f-icon" src="images/linkedin.png"></a>
+                      <a href="https://www.tiktok.com/@ray_ch_el?lang=en" target="_blank"> <img class="f-icon" src="images/tiktok.png"></a>
+                      <a href="https://www.goodreads.com/user/show/108688658-rachel" target="_blank"> <img class="f-icon" src="images/goodreads.png"></a>
+                    </div>
+                    <div class="col-md-3">
+                      <p class="f-content">Rachel Bradley</p>
+                      <p class="f-content">UX/UI Designer</p>
+                      <p class="f-content">Email: rachelbradley@email.arizona.edu</p>
+                    </div>
+                    <div class="col-md-3">
+                        
+                        <p class="f-content link"><a href="index.html" style="color: black; text-decoration: none;">Home</a></p>
+                        <p class="f-content link"><a href="my-projects.html" style="color: black; text-decoration: none;">My Projects</a></p>
+                        <p class="f-content link"><a href="my-skills.html" style="color: black; text-decoration: none;">My Skills</a></p>
+                        <p class="f-content link"><a href="resume.html" style="color: black; text-decoration: none;">Resume</a></p>
+                        <p class="f-content link"><a href="contact-me.html" style="color: black; text-decoration: none;">Contact Me</a></p>
+                        <p class="f-content link"><a href="about-me.html" style="color: black; text-decoration: none;">About Me</a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
     </body>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="js/about-me.js"></script>
