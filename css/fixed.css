@@ -31,7 +31,7 @@ footer {
     color: black;
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .f-content {
     color: black;
@@ -48,5 +48,5 @@ footer {
     min-height: 120vh;
 }
 #footer {
-    height: 320px;
+    height: 370px;
 }
