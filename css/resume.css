@@ -4,18 +4,7 @@ li:nth-child(3) {
     font-weight: bold;
     text-decoration: underline;
  }
- /* button */
 
- .btn {
-    background-color: #B9B098 !important;
-    border: 1px solid black !important;
-    padding: 5% !important;
-    color: black !important;
-    margin-bottom: 25px;
-}
-.btn:hover {
-    box-shadow: 5px 5px #c5c5c5;
-}
  /*Title*/
  
  .resume h5 {
@@ -35,7 +24,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     margin-top: 0px !important;
 }
 .resume2 {
@@ -47,4 +36,22 @@ a:hover {
 a:visited {
     text-decoration: none !important;
     color: black !important;
+}
+
+@media all and (max-width: 1200px) {
+    .resume img {
+        width: 70%;
+    }
+}
+ /* button */
+
+ .btn {
+    background-color: #B9B098 !important;
+    border: 1px solid black !important;
+    padding: 5% !important;
+    color: black !important;
+    margin-bottom: 25px;
+}
+.btn:hover {
+    box-shadow: 5px 5px #c5c5c5;
 }

@@ -23,3 +23,33 @@ li:nth-child(1) {
     font-size: 17px;
     font-family: 'Roboto Mono', monospace;
 }
+
+@media all and (max-width: 1200px) {
+    .photome {
+        width: 350px;
+    }
+    .intro h6 {
+        font-size: 30px !important;
+    }
+    .mytitle {
+        font-size: 10px !important;
+    }
+    .intro {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .photome {
+        width: 275px;
+    }
+    .intro h6 {
+        font-size: 25px !important;
+    }
+    .mytitle {
+        font-size: 8px !important;
+    }
+    .intro {
+        font-size: 11px;
+    }
+}

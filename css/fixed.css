@@ -22,6 +22,11 @@ body {
     width: 170px;
 }
 
+@media all and (max-width: 1024px) {
+    .nav-link {
+        font-size: 13px;
+    }
+}
 /* footer */
 footer {
     background-color: #CDB7A1;
@@ -49,4 +54,13 @@ footer {
 }
 #footer {
     height: 370px;
+}
+
+@media all and (max-width: 1024px) {
+    .f-heading {
+        font-size: 16px !important;
+    }
+    .f-content {
+        font-size: 12px;
+    }
 }
