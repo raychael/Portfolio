@@ -164,12 +164,9 @@ p strong {
     }
 }
 @media all and (max-width: 1000px) {
-    .hero {
-        height: 80vh;
-    }
     .title h1 {
         font-size: 30px;
-        margin-top: -50px !important;
+        margin-top: 0px !important;
     }
     .text {
         margin-left: 200px;
@@ -182,10 +179,18 @@ p strong {
     .intro {
         grid-template-columns: 1fr;
     }
+    .display {
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+    }
     .display1 {
         width: 300px !important;
         margin-right: auto;
         margin-left: auto;
+    }
+    .banner1 {
+        margin-top: -100px;
     }
     h3 {
         font-size: 20px !important;
@@ -197,9 +202,35 @@ p strong {
         margin-top: 40px !important;
     }
 }
+
+@media all and (max-width: 770px) {
+    .phone {
+        height: 150px !important;
+    }
+    .laptop {
+        height: 150px !important;
+    }
+    .displays {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 @media all and (max-width: 650px) {
     .text {
         margin-left: 10px;
         margin-right: 10px;
+    }
+    .phone {
+        height: 200px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .laptop {
+        height: 250px !important;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
