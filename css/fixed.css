@@ -22,11 +22,6 @@ body {
     width: 170px;
     margin-top: -100px !important;
 }
-@media all and (max-width: 1100px) {
-    .nav-link {
-        font-size: 13px;
-    }
-}
 /* footer */
 footer {
     background-color: #CDB7A1;
@@ -56,6 +51,12 @@ footer {
     height: 370px;
 }
 
+@media all and (max-width: 1100px) {
+    .nav-link {
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 1024px) {
     .f-heading {
         font-size: 16px !important;
@@ -66,5 +67,23 @@ footer {
     .col-md-5 {
         margin-right: auto;
         margin-left: auto;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .f-heading {
+        display: none;
+    }
+    .link {
+        display: none;
+    }
+    .f-content {
+        margin-top: 20px;
+    }
+    #footer {
+        height: 275px;
+    }
+    .firstcontent {
+        margin-top: -25px;
     }
 }
