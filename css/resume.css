@@ -38,11 +38,6 @@ a:visited {
     color: black !important;
 }
 
-@media all and (max-width: 1200px) {
-    .resume img {
-        width: 70%;
-    }
-}
  /* button */
 
  .btn {
@@ -54,4 +49,16 @@ a:visited {
 }
 .btn:hover {
     box-shadow: 5px 5px #c5c5c5;
+}
+
+@media all and (max-width: 1200px) {
+    .resume img {
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 700px) {
+    .resume img {
+        width: 100%;
+    }
 }
