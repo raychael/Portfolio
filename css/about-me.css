@@ -43,3 +43,17 @@ p {
         font-size: 12px;
     }
 }
+
+@media all and (max-width: 770px) {
+    .photome {
+        height: 235px;
+    }
+    p {
+        font-size: 11px;
+        margin-left: 30px;
+    }
+    .lastp {
+        margin-left: -220px;
+        margin-top: 20px;
+    }
+}
