@@ -68,13 +68,3 @@ footer {
         margin-left: auto;
     }
 }
-
-
-@media all and (max-width: 770px) {
-    .photome {
-        width: 220px;
-    }
-    .intro2 {
-        margin-left: -200px;
-    }
-}
