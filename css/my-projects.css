@@ -80,3 +80,17 @@ a:visited {
         font-size: 12px;
     }
 }
+
+@media all and (max-width: 1200px) {
+    .col-md-5 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media all and (max-width: 770px) {
+    .col-md-5 {
+        margin-right: 30px !important;
+        margin-left: 30px !important;
+    
+}
