@@ -56,4 +56,38 @@ p {
         margin-left: -220px;
         margin-top: 20px;
     }
+    .foot {
+        margin-left: 0px;
+    }
+}
+
+@media all and (max-width: 520px) {
+    .photome {
+        height: 200px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .middlep {
+        margin-left: -200px;
+    }
+    .lastp {
+        margin-left: -200px;
+    }
+}
+
+@media all and (max-width: 440px) {
+    .photome {
+        height: 190px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .middlep {
+        margin-left: -170px;
+        margin-top: 20px;
+    }
+    .lastp {
+        margin-left: -170px;
+    }
 }
