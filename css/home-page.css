@@ -7,10 +7,12 @@ li:nth-child(1) {
  }
 /* Home */
 .photome {
-    width: 400px;
-    margin-bottom: 70px;
+    width: 370px;
+    margin-top: 70px;
+    margin-bottom: 0px;
 }
 .intro h6 {
+    margin-top: 70px;
     font-size: 40px !important;
     font-weight: normal;
     font-family: 'Cedarville Cursive', cursive;
