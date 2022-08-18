@@ -10,6 +10,7 @@ li:nth-child(1) {
     width: 370px;
     margin-top: 70px;
     margin-bottom: 0px;
+    border-radius: 20px;
 }
 .intro h6 {
     margin-top: 70px;
