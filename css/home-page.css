@@ -85,6 +85,7 @@ li:nth-child(1) {
 
 @media all and (max-width: 450px) {
     .photome {
+        margin-top: 50px;
         width: 175px;
     }
     .intro h6 {
