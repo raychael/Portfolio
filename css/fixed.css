@@ -19,8 +19,9 @@ body {
     margin-top: 20px !important;
 }
 .logotop {
-    width: 170px;
+    width: 130px;
     margin-top: 0px !important;
+    margin-left: 50px;
 }
 /* footer */
 footer {
