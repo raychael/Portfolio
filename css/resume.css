@@ -29,7 +29,7 @@ hr {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    width: 50%;
     margin-top: 0px !important;
 }
 .resume2 {
@@ -46,11 +46,12 @@ a:visited {
  /* button */
 
  .btn {
-    background-color: #B9B098 !important;
+    background-color: #C55D42 !important;
     border: 1px solid black !important;
     padding: 5% !important;
     color: black !important;
     margin-bottom: 25px;
+    margin-top: 25px;
 }
 .btn:hover {
     box-shadow: 5px 5px #c5c5c5;
