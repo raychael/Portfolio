@@ -45,6 +45,7 @@ footer {
     font-family: 'Roboto Mono', monospace;
     font-weight: normal;
     margin-top: 20px !important;
+    margin-bottom: 20px !important;
     border: 1px solid #FEDE00 !important;
     text-align: center;
 }
@@ -92,14 +93,15 @@ footer {
 }
 
 @media all and (max-width: 770px) {
-    .f-heading {
-        display: none;
-    }
-    .link {
-        display: none;
-    }
+  
     .f-content {
-        margin-top: 20px;
+        margin-top: 0px;
+    }
+    .f-heading {
+        width: 170px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
     #footer {
         height: 275px;
@@ -108,7 +110,7 @@ footer {
         margin-top: -25px;
     }
     #footer {
-        height: 370px;
+        height: 770px;
     }
     hr {
         width: 450px;

@@ -31,6 +31,7 @@ hr {
     margin-right: auto;
     width: 50%;
     margin-top: 0px !important;
+    margin-bottom: 50px;
 }
 .resume2 {
     margin-bottom: 20px;
@@ -46,25 +47,56 @@ a:visited {
  /* button */
 
  .btn {
-    background-color: #C55D42 !important;
+    background-color: #A1706C !important;
     border: 1px solid black !important;
     padding: 5% !important;
     color: black !important;
     margin-bottom: 25px;
-    margin-top: 25px;
+    height: 55px;
 }
 .btn:hover {
     box-shadow: 5px 5px #c5c5c5;
+}
+p {
+    font-size: 16px;
+    text-align: center;
 }
 
 @media all and (max-width: 1200px) {
     .resume img {
         width: 70%;
     }
+    .btn {
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    .btn {
+        height: 40px;
+    }
 }
 
 @media all and (max-width: 700px) {
     .resume img {
         width: 100%;
+    }
+}
+
+@media all and (max-width: 539px) {
+    .btn {
+        height: 35px;
+    }
+    p {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 495px) {
+    .btn {
+        height: 45px;
+    }
+    p {
+        font-size: 14px;
     }
 }
