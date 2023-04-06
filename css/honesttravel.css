@@ -10,17 +10,22 @@ li:nth-child(1) {
     margin-bottom: 200px;
 }
 .display1 {
-    width: 400px;
-    margin-top: 20px;
+    width: 500px;
+    margin-top: 50px;
 }
 .display {
     width: 350px;
+    margin-top: 50px;
+}
+.displaymobile {
+    width: 400px;
+    margin-top: 50px;
 }
 .title h1 {
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: bold;
 }
 .title {
@@ -30,10 +35,10 @@ li:nth-child(1) {
     font-family: 'open sans';
     font-size: 20px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 .text {
-    margin-left: 400px;
+    margin-left: 550px;
     margin-right: 50px;
 }
 /*Project Overview*/
@@ -151,10 +156,19 @@ p strong {
 #bottomnavbar {
     display: none;
 }
-@media all and (max-width: 1400px) {
+
+@media all and (max-width: 1650px) {
     .text {
         margin-left: 300px;
+    }
+}
+@media all and (max-width: 1400px) {
+    .text {
+        margin-left: 275px;
         margin-right: 10px;
+    }
+    .text P {
+        margin-top: 80px;
     }
     #sidenav {
         display: none;
@@ -183,6 +197,11 @@ p strong {
         grid-template-columns: 1fr;
     }
     .display {
+        margin-right: auto;
+        margin-left: auto;
+        width: 300px;
+    }
+    .displaymobile {
         margin-right: auto;
         margin-left: auto;
         width: 300px;
