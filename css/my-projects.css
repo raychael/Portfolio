@@ -38,7 +38,7 @@ li:nth-child(1) {
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     padding: 2%;
     border-radius: 5px;
 }
@@ -47,7 +47,7 @@ li:nth-child(1) {
 }
 .last {
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 h1 {
     font-size: 20px !important;
@@ -71,9 +71,16 @@ a:visited {
     color: black !important;
 }
 
+@media all and (max-width: 1200px) {
+    .col-md-5 {
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
 @media all and (max-width: 1000px) {
     .display {
-        width: 225px;
+        width: 300px;
     }
     .displayphone {
         width: 225px;
@@ -86,17 +93,24 @@ a:visited {
     }
 }
 
-@media all and (max-width: 1200px) {
-    .col-md-5 {
-        margin-right: auto;
-        margin-left: auto;
-    }
-}
-
 @media all and (max-width: 770px) {
     .col-md-5 {
         margin-right: 30px !important;
         margin-left: 30px !important;
-    
 }
+    .display {
+        width: 300px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .display {
+        width: 450px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .display {
+        width: 350px;
+    }
 }

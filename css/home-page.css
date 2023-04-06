@@ -31,9 +31,6 @@
 }
 
 @media all and (max-width: 1440px) {
-    .intro h6 {
-        font-size: 30px !important;
-    }
     .intro {
         margin-right: 0px;
     }
@@ -42,12 +39,6 @@
 @media all and (max-width: 1200px) {
     .photome {
         width: 350px;
-    }
-    .intro h6 {
-        font-size: 30px !important;
-    }
-    .mytitle {
-        font-size: 10px !important;
     }
     .intro {
         font-size: 14px;
@@ -58,20 +49,20 @@
     .photome {
         width: 275px;
     }
-    .intro h6 {
-        font-size: 25px !important;
-    }
     .mytitle {
         font-size: 10px !important;
     }
     .intro {
         font-size: 11px;
     }
+    .intro h6 {
+        font-size: 35px !important;
+    }
 }
 
 @media all and (max-width: 770px) {
     .photome {
-        width: 220px;
+        width: 300px;
     }
     .intro2 {
         margin-left: -200px;
@@ -80,10 +71,21 @@
         margin-right: 30px !important;
         margin-left: 30px !important;
     }
+    .intro h6 {
+        font-size: 30px !important;
+    }
+    .mytitle {
+        font-size: 9px !important;
+    }
 }
 
-@media all and (max-width: 770px) {
-
+@media all and (max-width: 500px) {
+    .intro h6 {
+        font-size: 25px !important;
+    }
+    .mytitle {
+        font-size: 7px !important;
+    }
 }
 
 @media all and (max-width: 450px) {
@@ -92,11 +94,12 @@
         width: 175px;
     }
     .intro h6 {
-        font-size: 25px !important;
+        font-size: 20px !important;
         margin-left: 15px;
     }
     .mytitle {
         margin-left: 20px !important;
+        font-size: 6px !important;
     }
     .intro {
         margin-left: -170px;

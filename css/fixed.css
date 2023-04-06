@@ -70,6 +70,12 @@ footer {
     height: 470px;
 }
 
+@media all and (max-width: 1200px) {
+    hr {
+        width: 900px;
+    }
+}
+
 @media all and (max-width: 1100px) {
     .nav-link {
         font-size: 13px;
