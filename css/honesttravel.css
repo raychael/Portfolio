@@ -164,18 +164,22 @@ p strong {
     display: none;
 }
 
-@media all and (max-width: 1650px) {
+@media all and (max-width: 1750px) {
     .text {
         margin-left: 300px;
     }
 }
 @media all and (max-width: 1400px) {
+    .display1 {
+        margin-right: 200px;
+    }
     .text {
-        margin-left: 275px;
+        margin-left: 200px;
         margin-right: 10px;
     }
     .text P {
         margin-top: 80px;
+        font-size: 18px;
     }
     #sidenav {
         display: none;
@@ -187,10 +191,20 @@ p strong {
         display: unset;
     }
 }
+
+@media all and (max-width: 1200px) {
+    .display1 {
+        width: 400px;
+    }
+    .text p {
+        margin-top: 50px;
+    }
+}
+
 @media all and (max-width: 1000px) {
     .title h1 {
-        font-size: 30px;
-        margin-top: 0px !important;
+        font-size: 35px;
+        margin-top: 50px !important;
     }
     .text {
         margin-left: 200px;
@@ -214,7 +228,8 @@ p strong {
         width: 300px;
     }
     .display1 {
-        width: 300px !important;
+        width: 500px !important;
+        display: block;
         margin-right: auto;
         margin-left: auto;
     }
@@ -227,21 +242,23 @@ p strong {
         font-weight: none !important;
     }
     h2 {
-        font-size: 20px !important;
-        margin-top: 40px !important;
+        font-size: 30px !important;
+        margin-top: 30px !important;
     }
 }
 
 @media all and (max-width: 770px) {
+    .title h1 {
+        font-size: 30px;;
+    }
     .phone {
         height: 150px !important;
     }
     .laptop {
         height: 150px !important;
     }
-    .displays {
-        margin-right: auto;
-        margin-left: auto;
+    .display1 {
+        width: 400px !important;
     }
 }
 
