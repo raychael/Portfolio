@@ -2,6 +2,13 @@ li:nth-child(1) {
     font-weight: bold;
     text-decoration: underline;
  }
+ .display {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-top: 0px !important;
+}
 /*Overview*/
 
 .intro {

@@ -8,7 +8,7 @@ li:nth-child(1) {
 
 .projects h5 {
     margin-top: 70px;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Cedarville Cursive', cursive;
     text-align: center;
 }
@@ -70,6 +70,7 @@ a:visited {
     text-decoration: none !important;
     color: black !important;
 }
+
 
 @media all and (max-width: 1200px) {
     .col-md-5 {
