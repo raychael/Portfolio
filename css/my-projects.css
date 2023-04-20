@@ -83,13 +83,8 @@ a:visited {
         width: 300px;
     }
     .displayphone {
-        width: 225px;
-    }
-    h1 {
-        font-size: 16px !important;
-    }
-    p {
-        font-size: 12px;
+        width: 270px;
+        margin-bottom: 70px;
     }
 }
 
@@ -98,19 +93,22 @@ a:visited {
         margin-right: 30px !important;
         margin-left: 30px !important;
 }
-    .display {
-        width: 300px;
-    }
 }
 
 @media all and (max-width: 767px) {
     .display {
         width: 450px;
     }
+    .displayphone {
+        width: 400px;
+    }
 }
 
 @media all and (max-width: 600px) {
     .display {
+        width: 350px;
+    }
+    .displayphone {
         width: 350px;
     }
 }

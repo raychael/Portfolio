@@ -6,6 +6,10 @@ hr {
     width: 1100px;
     margin-bottom: 50px !important;
 }
+.background {
+    background-image: url();
+    background-size: 100% 100%;
+}
 /* nav */
 .nav-link { 
     color: black !important;

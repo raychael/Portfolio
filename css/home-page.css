@@ -45,21 +45,6 @@
     }
 }
 
-@media all and (max-width: 1000px) {
-    .photome {
-        width: 275px;
-    }
-    .mytitle {
-        font-size: 10px !important;
-    }
-    .intro {
-        font-size: 11px;
-    }
-    .intro h6 {
-        font-size: 35px !important;
-    }
-}
-
 @media all and (max-width: 770px) {
     .photome {
         width: 300px;
@@ -70,12 +55,6 @@
     .col-md-5 {
         margin-right: 30px !important;
         margin-left: 30px !important;
-    }
-    .intro h6 {
-        font-size: 30px !important;
-    }
-    .mytitle {
-        font-size: 9px !important;
     }
 }
 
