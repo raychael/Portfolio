@@ -60,30 +60,15 @@
 
 @media all and (max-width: 500px) {
     .intro h6 {
-        font-size: 25px !important;
+        font-size: 35px !important;
     }
     .mytitle {
-        font-size: 7px !important;
+        font-size: 12px !important;
     }
 }
 
 @media all and (max-width: 450px) {
     .photome {
-        margin-top: 50px;
-        width: 175px;
-    }
-    .intro h6 {
-        font-size: 20px !important;
-        margin-left: 15px;
-    }
-    .mytitle {
-        margin-left: 20px !important;
-        font-size: 6px !important;
-    }
-    .intro {
-        margin-left: -170px;
-    }
-    .intro1 {
-        margin-top: 40px;
+        width: 250px;
     }
 }
