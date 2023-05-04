@@ -1,8 +1,8 @@
 body {
-    background-color: #F0ECE1 !important ;
+    background-color: white !important ;
 }
 hr {
-    border-top: 1px solid black !important;
+    border-top: 2px solid black !important;
     width: 1100px;
     margin-bottom: 50px !important;
 }
@@ -14,22 +14,16 @@ hr {
 .nav-link { 
     color: black !important;
     font-family: 'Roboto Mono', monospace !important;
-    font-weight: normal !important;
-    font-size: 16px;
-    margin-right: 35px;
-    margin-left: 35px;
-    margin-bottom: 0px;
+    font-weight: bold !important;
+    font-size: 20px;
+    margin-left: 50px;
 }
 .nav-link:hover {
     text-decoration: underline !important;
 }
-.navbar-nav {
-    margin-bottom: 20px !important;
-    margin-top: 20px !important;
-}
 .logotop {
-    width: 170px;
-    margin-top: 0px !important;
+    width: 250px;
+    margin-top: 10px !important;
     margin-left: 50px;
 }
 /* footer */
@@ -37,7 +31,7 @@ footer {
     background-color: #C76D55;
 }
 .footerlogo {
-    width: 150px;
+    width: 200px;
     margin-top: 30px;
     display: block;
     margin-left: auto;
@@ -50,7 +44,7 @@ footer {
     font-weight: normal;
     margin-top: 20px !important;
     margin-bottom: 20px !important;
-    border: 1px solid #FEDE00 !important;
+    border: 2px solid #F99100 !important;
     text-align: center;
 }
 .f-content {
@@ -71,7 +65,7 @@ footer {
     min-height: 120vh;
 }
 #footer {
-    height: 470px;
+    height: 500px;
 }
 
 @media all and (max-width: 1200px) {
@@ -100,6 +94,17 @@ footer {
     hr {
         width: 700px;
     }
+    .navbar-toggler-icon {
+        width: 70px !important;
+        height: 70px !important;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .nav-link {
+        font-size: 25px !important;
+        margin-top: 25px;
+    }
 }
 
 @media all and (max-width: 770px) {
@@ -120,7 +125,7 @@ footer {
         margin-top: -25px;
     }
     #footer {
-        height: 770px;
+        height: 850px;
     }
     hr {
         width: 450px;
