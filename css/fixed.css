@@ -15,14 +15,14 @@ hr {
     color: black !important;
     font-family: 'Roboto Mono', monospace !important;
     font-weight: bold !important;
-    font-size: 20px;
+    font-size: 16px;
     margin-left: 50px;
 }
 .nav-link:hover {
     text-decoration: underline !important;
 }
 .logotop {
-    width: 250px;
+    width: 200px;
     margin-top: 10px !important;
     margin-left: 50px;
 }
