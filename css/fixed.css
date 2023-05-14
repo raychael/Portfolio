@@ -26,6 +26,10 @@ hr {
     margin-top: 10px !important;
     margin-left: 50px;
 }
+.navbar-toggler-icon {
+    width: 40px !important;
+    height: 40px !important;
+}
 /* footer */
 footer {
     background-color: #C76D55;
@@ -94,9 +98,10 @@ footer {
     hr {
         width: 700px;
     }
-    .navbar-toggler-icon {
-        width: 50px !important;
-        height: 50px !important;
+    .logotop {
+        width: 140px;
+        margin-top: 10px !important;
+        margin-left: 10px;
     }
 }
 
