@@ -51,13 +51,13 @@ li:nth-child(1) {
 }
 h1 {
     font-size: 20px !important;
-    text-align: center;
+    text-align: left;
     margin-bottom: 10px !important;
     margin-top: 50px !important;
     font-family: 'Roboto Mono', monospace;
     color: black;
 }
-p {
+.p {
     font-family: 'open sans';
     color: black;
     font-size: 18px;
