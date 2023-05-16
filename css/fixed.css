@@ -107,7 +107,7 @@ footer {
 
 @media all and (max-width: 991px) {
     .nav-link {
-        font-size: 25px !important;
+        font-size: 15px !important;
         margin-top: 25px;
     }
 }

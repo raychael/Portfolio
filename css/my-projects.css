@@ -61,7 +61,7 @@ p {
     font-family: 'open sans';
     color: black;
     font-size: 18px;
-    text-align: center;
+    text-align: left;
 }
 a:hover {
     text-decoration: none !important;
