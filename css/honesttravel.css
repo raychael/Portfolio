@@ -39,7 +39,7 @@ li:nth-child(1) {
 .text p {
     font-family: 'open sans';
     font-size: 20px;
-    text-align: center;
+    text-align: left;
     margin-top: 100px;
 }
 .text {
