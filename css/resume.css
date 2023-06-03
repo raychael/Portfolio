@@ -64,39 +64,19 @@ p {
 
 @media all and (max-width: 767px) {
     .btn {
-        height: 40px;
+       width: 120px !important;
+       padding: 25% !important;
     }
-}
-
-@media all and (max-width: 700px) {
     .resume img {
-        width: 100%;
+        width: 500px;
     }
 }
 
-@media all and (max-width: 539px) {
+@media all and (max-width: 575px) {
     .btn {
-        height: 35px;
+        padding: 3% !important;
     }
-    p {
-        font-size: 14px;
-    }
-}
-
-@media all and (max-width: 495px) {
-    .btn {
-        height: 30px;
-    }
-    p {
-        font-size: 12px;
-    }
-}
-
-@media all and (max-width: 447px) {
-    .btn {
-        height: 45px;
-    }
-    p {
-        font-size: 12px;
+    .resume img {
+        width: 400px;
     }
 }

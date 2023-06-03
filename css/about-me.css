@@ -26,7 +26,7 @@ p {
     }
 }
 
-@media all and (max-width: 984px) {
+@media all and (max-width: 991px) {
    p {
        margin-left: 100px;
        font-size: 15px;
@@ -52,45 +52,21 @@ p {
 
 @media all and (max-width: 520px) {
     .photome {
-        height: 200px;
+        height: 250px;
     }
     p {
-        font-size: 15px;
+        font-size: 11px;
     }
-    .middlep {
-        margin-top: 20px;
-        margin-left: -170px;
-    }
-    .lastp {
-        margin-left: -170px;
+    .marginp {
+        margin-left: 30px;
     }
 }
 
 @media all and (max-width: 480px) {
-    p {
-        font-size: 15px;
-    }
-    .middlep {
-        margin-top: 10px;
-        margin-left: -150px;
-    }
-    .lastp {
-        margin-left: -150px;
-    }
-}
-
-@media all and (max-width: 440px) {
     .photome {
-        height: 190px;
+        height: 225px;
     }
-    p {
-        font-size: 13px;
-    }
-    .middlep {
-        margin-left: -150px;
-        margin-top: 40px;
-    }
-    .lastp {
-        margin-left: -150px;
+    .marginp {
+        margin-left: 30px;
     }
 }
