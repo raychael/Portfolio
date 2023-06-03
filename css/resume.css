@@ -64,8 +64,8 @@ p {
 
 @media all and (max-width: 767px) {
     .btn {
-       width: 120px !important;
-       padding: 25% !important;
+       width: 80px !important;
+       padding: 10% !important;
     }
     .resume img {
         width: 500px;
@@ -74,7 +74,7 @@ p {
 
 @media all and (max-width: 575px) {
     .btn {
-        padding: 3% !important;
+        padding: 1% !important;
     }
     .resume img {
         width: 400px;

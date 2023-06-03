@@ -41,6 +41,7 @@ hr {
 }
 .btn {
     background-color: #F99100 !important;
+    border: 1px solid #F99100 !important;
     color: black !important;
     margin-top: 15px;
 }
@@ -65,7 +66,7 @@ hr {
 
 @media all and (max-width: 770px) {
     .card {
-        width: 500px;
+        width: 510px;
         margin-right: auto;
         margin-left: auto;
     }
@@ -77,19 +78,25 @@ hr {
     }
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 575px) {
     .card {
-        width: 350px;
+        width: 500px;
     }
-    .form-group1 {
-        margin-left: 35px;
-        margin-right: 35px;
+    .form-group {
+        width: 500px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 525px) {
     .card {
-        width: 300px;
+        width: 400px;
+    }
+    .form-group {
+        width: 400px;
+        margin-right: auto;
+        margin-left: auto;
     }
     .card-title {
         font-size: 16px;
@@ -97,5 +104,16 @@ hr {
     }
     .card-text {
         font-size: 14px;
+    }
+}
+
+@media all and (max-width: 525px) {
+    .card {
+        width: 350px;
+    }
+    .form-group {
+        width: 350px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
