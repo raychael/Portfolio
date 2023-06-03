@@ -3,19 +3,28 @@
 li:nth-child(1) {
     text-decoration: underline;
  }
-/* Title */
 
+/* Typography */
 
 .projects h5 {
     margin-top: 70px;
-    font-size: 50px;
-    font-family: 'Cedarville Cursive', cursive;
+    font-size: 40px;
+    font-family: 'Cherry Bomb One', cursive;
     text-align: center;
 }
-.first {
-    margin-top: 50px !important;
-    margin-bottom: 0px !important ;
+.left {
+    font-family: 'Merriweather', serif !important;
+    font-size: 20px !important;
+    margin-top: 20px;
+    color: black;
 }
+.p {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
 /* Projects */
 
 .display {
@@ -57,12 +66,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
     color: black;
 }
-.p {
-    font-family: 'open sans';
-    color: black;
-    font-size: 18px;
-    text-align: left;
-}
+
 a:hover {
     text-decoration: none !important;
 }

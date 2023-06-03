@@ -2,104 +2,90 @@ li:nth-child(1) {
     font-weight: bold;
     text-decoration: underline;
  }
- .display {
+
+/*display image*/
+
+.display {
+    width: 650px;
+    margin-top: 50px;
+    margin-bottom: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
-    margin-top: 0px !important;
-    width: 350px;
-    margin-top: 100px !important;
 }
-/*Overview*/
 
-.intro {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 200px;
-}
-.display1 {
-    width: 500px;
-    margin-top: 50px;
-}
-.displaymobile {
-    width: 400px;
-    margin-top: 50px;
-}
-.title h1 {
-    font-size: 35px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    margin-top: 150px;
-    font-weight: bold;
-}
-.title {
-    margin-top: 0px;
-}
-.text p {
-    font-family: 'open sans';
-    font-size: 20px;
-    text-align: left;
-    margin-top: 100px;
-}
-.text {
-    margin-left: 550px;
-    margin-right: 50px;
-}
-/*Project Overview*/
+/*Banners*/
 
-.first {
-    margin-top: 100px;
-}
-h3 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px !important;
-    font-weight: normal !important;
-    text-align: center;
-    color: black;
-    margin-top: 10px !important;
-}
-.work img {
-    height: 30px;
-    margin-left: 15px;
-    margin-top: 20px;
-}
-.work {
+.banner {
+    background-color: #A1706C;
+    height: 100px;
+    width: 100%;
     display: flex;
     justify-content: center;
-    margin-top: 15px;
-    margin-bottom: -15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
 }
-.col-sm {
-    font-family: 'open sans';
-    margin-bottom: 20px;
+.bannerlast {
+    background-color: #C76D55
+}
+
+/*Typography*/
+
+h1 {
+    font-family: 'Cherry Bomb One', cursive;
+    text-align: center;
+    margin-top: 100px !important;
+    font-size: 50px !important;
+}
+.banner h2 {
+    font-family: 'Braah One', sans-serif;
+    font-size: 35px;
+    margin-top: 35px;
+}
+.col-sm p {
+    font-family: 'Nunito', sans-serif;
+    text-align: left;
+    font-size: 16px;
+}
+.left {
+    text-align: left !important;
+    font-family: 'Merriweather', serif !important;
+    font-size: 20px !important;
+    margin-top: 20px;
 }
 .center {
     text-align: center !important;
-    font-family: 'open sans';
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
 }
-p .bold {
+.titles {
+    font-family: 'Merriweather', serif;
     font-size: 20px;
-    font-weight: bold;
-    font-family: 'open sans';
 }
-.col-sm p:nth-child(2) {
-    font-size: 16px;
-    font-family: 'open sans';
+.col-sm .nextprojtext {
+    font-family: 'Cherry Bomb One', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Images*/
+.spacing {
+    margin-bottom: 40px;
+}
+.doublespacing {
+    margin-bottom: 90px;
 }
 .col-sm img {
     height: 200px;
 }
-.overview p {
-    font-family: 'open sans';
-}
 .overview {
     margin-top: 30px;
 }
-p strong {
-    font-size: 20px;
-}
 .col-sm .width {
+    width: 100%;
+    height: 100%;
+}
+.col-sm .widthdesktop {
     width: 100%;
     height: 100%;
 }
@@ -109,36 +95,18 @@ p strong {
     margin-right: auto;
     width: 300px;
 }
+
 /*User Research*/
-.banner {
-    background-color: #A1706C;
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.banner h2 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    margin-top: 20px;
-}
-.bannerlast {
-    background-color: #C76D55
-}
+
 .btn {
     background-color: #AA7160 !important;
     border: none !important;
-    margin-top: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .btn:hover {
     border: 1px solid black !important;
     box-shadow: 5px 5px #c5c5c5;
-}
-.col-sm p {
-    text-align: left;
 }
 .nextproject {
     width: 550px;
@@ -146,10 +114,12 @@ p strong {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 50px;
+    margin-top: 20px;
 }
 .needborder {
     border: 1px solid black !important;
 }
+
 /*Side Nav*/
 
 #sidenav {
@@ -181,133 +151,19 @@ p strong {
     display: none;
 }
 
-@media all and (max-width: 1750px) {
-    .text {
-        margin-left: 300px;
-    }
-}
 @media all and (max-width: 1400px) {
-    .display1 {
-        margin-right: 200px;
-    }
-    .text {
-        margin-left: 200px;
-        margin-right: 10px;
-    }
-    .text P {
-        margin-top: 80px;
-        font-size: 18px;
-    }
     #sidenav {
         display: none;
-    }
-    .smallnavbar {
-        display: unset !important;
-    }
-    #bottomnavbar {
-        display: unset;
-    }
-}
-
-@media all and (max-width: 1200px) {
-    .display1 {
-        width: 400px;
-    }
-    .text p {
-        margin-top: 50px;
     }
 }
 
 @media all and (max-width: 1000px) {
-    .title h1 {
-        font-size: 35px;
+    h1 {
+        font-size: 40px !important;
         margin-top: 50px !important;
-    }
-    .text {
-        margin-left: 200px;
-        margin-right: 200px;
-    }
-    .text p {
-        font-size: 16px !important;
-        margin-top: 10px;
-    }
-    .intro {
-        grid-template-columns: 1fr;
+        margin-bottom: 50px !important;
     }
     .display {
-        margin-right: auto;
-        margin-left: auto;
-        width: 300px;
-        margin-top: 0px !important;
-    }
-    .displaymobile {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 300px;
-    }
-    .display1 {
-        width: 500px !important;
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-    }
-    .banner1 {
-        margin-top: -100px;
-    }
-    .bannernext {
-        margin-top: -100px;
-    }
-    h3 {
-        font-size: 20px !important;
-        margin-top: 0px !important;
-        font-weight: none !important;
-    }
-    h2 {
-        font-size: 30px !important;
-        margin-top: 30px !important;
-    }
-}
-
-@media all and (max-width: 770px) {
-    .title h1 {
-        font-size: 30px;;
-    }
-    .phone {
-        height: 150px !important;
-    }
-    .laptop {
-        height: 150px !important;
-    }
-    .display1 {
-        width: 400px !important;
-    }
-    .first {
-        margin-top: 0px !important;
-    }
-}
-
-@media all and (max-width: 650px) {
-    .text {
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-    .phone {
-        height: 200px !important;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .laptop {
-        height: 200px !important;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    h2 {
-        font-size: 25px !important;
-    }
-    .nextproject {
-        width: 400px;
+        margin-bottom: 50px !important;
     }
 }
