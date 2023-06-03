@@ -22,6 +22,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Braah+One&family=Cherry+Bomb+One&family=Merriweather&family=Nunito&display=swap" rel="stylesheet">
 
       <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Braah+One&family=Cherry+Bomb+One&family=Merriweather&family=Nunito&family=Nunito+Sans:wght@700&family=Press+Start+2P&family=Rock+Salt&display=swap" rel="stylesheet">
+      <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   </head>
 
     <body>
@@ -53,13 +54,19 @@
       <div class="container intro">
         <div class="row">
           <div class="col">
-            <h6>Welcome to my website, I'm Rachel</h6>
-            <p class="mytitle">a UI Designer, UX Researcher, Book Lover, Coffee Addict, Disney Fan, and Organization Junky</p>
+            <h6>Welcome to my Website, I'm <span class="auto-type"></span></h6>
             <img class="photome" src="images/ipaddrawing.jpg">
           </div>
         </div>
       </div>
 
+      <script>
+        var typed = new Typed(".auto-type", {
+          strings: ["a UX researcher", "a UI designer", " a book lover", " a coffee addict", "Rachel"],
+          typeSpeed: 70,
+          backSpeed: 50,
+        })
+      </script>
 
 
       <div class="projects">
