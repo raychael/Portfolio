@@ -82,3 +82,23 @@ p {
         width: 400px;
     }
 }
+
+@media all and (max-width: 420px) {
+    .resume img {
+        width: 350px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .btn {
+        padding: 3% !important;
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .btn p {
+        font-size: 11px !important;
+    }
+    .resume img {
+        width: 300px;
+    }
+}
