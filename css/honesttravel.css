@@ -152,8 +152,16 @@ h1 {
 }
 
 @media all and (max-width: 1400px) {
+    .display {
+        width: 500px;
+    }
+    h1 {
+        font-size: 35px !important;
+    }
     #sidenav {
-        display: none;
+        font-size: 10px !important;
+        margin-right: -50px;
+        left: 0px;
     }
 }
 
@@ -163,12 +171,18 @@ h1 {
         margin-top: 50px !important;
         margin-bottom: 50px !important;
     }
+    h2 {
+        font-size: 30px !important;
+        margin-top: 30px !important;
+    }
     .display {
         margin-bottom: 50px !important;
-        width: 500px;
     }
     .nextproject {
         width: 500px;
+    }
+    #sidenav {
+        display: none;
     }
 }
 
@@ -176,9 +190,12 @@ h1 {
     h1 {
         font-size: 35px !important;
     }
+}
+
+@media all and (max-width: 600px) {
     h2 {
-        font-size: 30px !important;
-        margin-top: 40px !important;
+        font-size: 25px !important;
+        margin-top: 32px !important;
     }
 }
 
@@ -186,11 +203,21 @@ h1 {
     .display {
         width: 400px;
     }
-    h2 {
-        font-size: 25px !important;
-    }
     .nextproject {
         width: 400px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    h2 {
+        font-size: 20px !important;
+        margin-top: 35px !important;
+    }
+}
+
+@media all and (max-width: 475px) {
+    .display {
+        width: 350px;
     }
 }
 
@@ -205,6 +232,6 @@ h1 {
         font-size: 25px !important;
     }
     .nextproject {
-        display: 200px !important;
+        width: 300px;
     }
 }

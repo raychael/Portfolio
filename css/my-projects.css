@@ -116,3 +116,27 @@ a:visited {
         width: 350px;
     }
 }
+
+@media all and (max-width: 425px) {
+    .display {
+       width: 325px; 
+    }
+}
+
+@media all and (max-width: 400px) {
+    .display {
+        width: 280px;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .display {
+        width: 250px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .display {
+        width: 240px;
+    }
+}
